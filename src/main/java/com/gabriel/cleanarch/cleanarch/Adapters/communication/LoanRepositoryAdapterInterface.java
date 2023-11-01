@@ -1,4 +1,4 @@
-package com.gabriel.cleanarch.cleanarch.Adapters;
+package com.gabriel.cleanarch.cleanarch.Adapters.communication;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

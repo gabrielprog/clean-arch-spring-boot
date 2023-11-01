@@ -1,5 +1,6 @@
-package com.gabriel.cleanarch.cleanarch.Adapters;
+package com.gabriel.cleanarch.cleanarch.Adapters.Mappers;
 
+import com.gabriel.cleanarch.cleanarch.Adapters.communication.LoanEntityAdapter;
 import com.gabriel.cleanarch.cleanarch.Entities.Loan;
 
 public class MapperEntityLoan {
@@ -18,8 +19,8 @@ public class MapperEntityLoan {
     public static LoanEntityAdapter toLoanAdapter(Loan loan) {
         LoanEntityAdapter loanEntityAdapter = new LoanEntityAdapter();
         
-        loan.setPayment(loan.getPayment());
-        loan.setName(loan.getName());
+        loanEntityAdapter.setPayment(loan.getPayment());
+        loanEntityAdapter.setName(loan.getName());
         
         return loanEntityAdapter;
     }
