@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8080/loan HTTP/1.0
+Content-type: application/json
+
+{
+    "name": "Gabriel",
+    "payment": 1500
+}
