@@ -8,7 +8,7 @@ The objective of this project is to provide a basic structure for developing an 
 
 ## Technologies Used
 
-- Java
+- Java 17
 - Spring Boot
 - Maven
 
