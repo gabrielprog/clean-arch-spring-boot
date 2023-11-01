@@ -1,45 +1,45 @@
-# Projeto de Estudo com Arquitetura Limpa e Spring Boot
+# Study Project with Clean Architecture and Spring Boot
 
-Este é um projeto de estudo que implementa uma aplicação usando a arquitetura limpa (Clean Architecture) em Java, com o framework Spring Boot e gerenciado com o Maven.
+This is a study project that implements an application using Clean Architecture in Java, with the Spring Boot framework and managed with Maven.
 
-## Visão Geral
+## Overview
 
-O objetivo deste projeto é fornecer uma estrutura básica para desenvolver uma aplicação utilizando os princípios da arquitetura limpa. A arquitetura limpa é uma abordagem que promove a separação de preocupações em camadas, tornando o código mais organizado, testável e escalável.
+The objective of this project is to provide a basic structure for developing an application using clean architecture principles. Clean architecture is an approach that promotes the separation of concerns into layers, making code more organized, testable and scalable.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Java
 - Spring Boot
 - Maven
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto segue a estrutura típica da arquitetura limpa, que consiste nas seguintes camadas:
+The project follows the typical clean architecture structure, which consists of the following layers:
 
-1. **Entidades**: Contém as classes que representam os objetos principais da aplicação.
-2. **Casos de Uso (Use Cases)**: Define os casos de uso da aplicação, contendo os serviços que realizam a lógica de negócios.
-3. **Adpatodores (Controllers, Repositories, etc..)**: Responsáveis por lidar com as requisições HTTP, mapeando endpoints e chamando os casos de uso apropriados.
+1. **Entities**: Contains the classes that represent the main objects of the application.
+2. **Use Cases**: Defines the application's use cases, containing the services that perform the business logic.
+3. **Adaptors (Controllers, Repositories, etc.)**: Responsible for handling HTTP requests, mapping endpoints and calling appropriate use cases.
 
 
-## Executando o Projeto
+## Running the Project
 
-Para executar o projeto, siga os passos abaixo:
+To run the project, follow the steps below:
 
-1. Certifique-se de ter o Java e o Maven instalados na sua máquina.
-2. Clone este repositório:
+1. Make sure you have Java and Maven installed on your machine.
+2. Clone this repository:
 
 ```bash
 git clone https://github.com/gabrielprog/clean-arch-spring-boot.git
 cd clean-arch-spring-boot
 mvn spring-boot:run
 ```
-A aplicação estará disponível em http://localhost:8080.
+The application will be available at http://localhost:8080/loan only post request.
 
-## Contribuindo
-Este projeto é destinado apenas para fins de estudo, mas você é bem-vindo para explorar e aprender com ele. Se você deseja contribuir ou fazer melhorias, fique à vontade para enviar um pull request.
+## Contributing
+This project is intended for study purposes only, but you are welcome to explore and learn from it. If you want to contribute or make improvements, feel free to submit a pull request.
 
-## Licença
-Este projeto é distribuído sob a licença MIT.
+## License
+This project is distributed under the MIT License.
 
 
 
