@@ -39,7 +39,7 @@ The application will be available at http://localhost:8080/loan only post reques
 This project is intended for study purposes only, but you are welcome to explore and learn from it. If you want to contribute or make improvements, feel free to submit a pull request.
 
 ## License
-This project is distributed under the MIT License.
+This project is distributed under the [MIT](LICENSE) License.
 
 
 
