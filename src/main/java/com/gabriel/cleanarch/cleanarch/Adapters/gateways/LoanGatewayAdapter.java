@@ -1,15 +1,16 @@
 package com.gabriel.cleanarch.cleanarch.Adapters.gateways;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.gabriel.cleanarch.cleanarch.Adapters.Mappers.MapperEntityLoan;
 import com.gabriel.cleanarch.cleanarch.Entities.Loan;
 import com.gabriel.cleanarch.cleanarch.db.LoanEntityAdapter;
 import com.gabriel.cleanarch.cleanarch.db.LoanRepositoryAdapterInterface;
 
+@Service
 public class LoanGatewayAdapter implements LoanGateway {
 
-    // TODO: Não ta injetando a interface respository
     @Autowired
     private LoanRepositoryAdapterInterface loanRepositoryAdapterInterface;
 
