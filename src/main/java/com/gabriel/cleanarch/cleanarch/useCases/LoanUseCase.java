@@ -1,6 +1,6 @@
-package com.gabriel.cleanarch.cleanarch.UseCases;
+package com.gabriel.cleanarch.cleanarch.useCases;
 
-import com.gabriel.cleanarch.cleanarch.Entities.Loan;
+import com.gabriel.cleanarch.cleanarch.entities.Loan;
 
 public class LoanUseCase implements LoanUseCaseInterface {
 

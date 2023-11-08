@@ -1,12 +1,12 @@
-package com.gabriel.cleanarch.cleanarch.Adapters.gateways;
+package com.gabriel.cleanarch.cleanarch.adapters.gateways;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gabriel.cleanarch.cleanarch.Adapters.Mappers.MapperEntityLoan;
-import com.gabriel.cleanarch.cleanarch.Entities.Loan;
+import com.gabriel.cleanarch.cleanarch.adapters.mappers.MapperEntityLoan;
 import com.gabriel.cleanarch.cleanarch.db.LoanEntityAdapter;
 import com.gabriel.cleanarch.cleanarch.db.LoanRepositoryAdapterInterface;
+import com.gabriel.cleanarch.cleanarch.entities.Loan;
 
 @Service
 public class LoanGatewayAdapter implements LoanGateway {

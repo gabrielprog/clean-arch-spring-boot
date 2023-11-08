@@ -1,4 +1,4 @@
-package com.gabriel.cleanarch.cleanarch.Adapters.controllers;
+package com.gabriel.cleanarch.cleanarch.adapters.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gabriel.cleanarch.cleanarch.Adapters.Mappers.MapperEntityLoan;
-import com.gabriel.cleanarch.cleanarch.Adapters.gateways.LoanGatewayAdapter;
+import com.gabriel.cleanarch.cleanarch.adapters.gateways.LoanGatewayAdapter;
+import com.gabriel.cleanarch.cleanarch.adapters.mappers.MapperEntityLoan;
 import com.gabriel.cleanarch.cleanarch.db.LoanEntityAdapter;
-import com.gabriel.cleanarch.cleanarch.Entities.Loan;
-import com.gabriel.cleanarch.cleanarch.UseCases.LoanUseCase;
-import com.gabriel.cleanarch.cleanarch.UseCases.LoanUseCaseInterface;
+import com.gabriel.cleanarch.cleanarch.entities.Loan;
+import com.gabriel.cleanarch.cleanarch.useCases.LoanUseCase;
+import com.gabriel.cleanarch.cleanarch.useCases.LoanUseCaseInterface;
 
 @RestController
 @RequestMapping("/loan")

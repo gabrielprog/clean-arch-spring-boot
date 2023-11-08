@@ -1,4 +1,4 @@
-package com.gabriel.cleanarch.cleanarch.Entities;
+package com.gabriel.cleanarch.cleanarch.entities;
 
 public class Loan {
 

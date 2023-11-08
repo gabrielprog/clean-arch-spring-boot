@@ -1,7 +1,7 @@
-package com.gabriel.cleanarch.cleanarch.Adapters.Mappers;
+package com.gabriel.cleanarch.cleanarch.adapters.mappers;
 
 import com.gabriel.cleanarch.cleanarch.db.LoanEntityAdapter;
-import com.gabriel.cleanarch.cleanarch.Entities.Loan;
+import com.gabriel.cleanarch.cleanarch.entities.Loan;
 
 public class MapperEntityLoan {
     
